@@ -1,0 +1,61 @@
+.mp-button--container{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+}
+
+.mp-button--circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.mp-button--main{
+    background-color: crimson;
+}
+
+.mp-button--whatsapp{
+    background-color: #25D366;
+}
+
+.mp-button--messenger{
+    background-color: #006AFF;
+}
+
+.mp-button--telegram{
+    background-color: #2AABEE;
+}
+
+.mp-button-visible{
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+
+.mp-button-invisible{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+
+.mp-icon--img{
+    height: 100%;
+    width: 100%;
+}
+
+.mp-icon--img-main{
+    width: 1.5em!important;
+    height: 1.5em;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mp-button--container{
+        right: 10px;
+    }
+}
