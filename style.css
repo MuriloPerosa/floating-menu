@@ -53,6 +53,10 @@
     padding: 8px;
 }
 
+.mp-button--circle:hover{
+    box-shadow: 0 5px 36px rgb(0 0 0 / 30%);
+    filter: brightness(95%);
+}
 
 @media only screen and (max-width: 768px) {
     .mp-button--container{
